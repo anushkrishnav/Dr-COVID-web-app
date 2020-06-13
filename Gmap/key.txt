@@ -1,0 +1,2 @@
+[your-config]
+API_KEY = "AIzaSyBeQ8EMs01Cnt9IHZXwqzUQOVqwra-WPJk"

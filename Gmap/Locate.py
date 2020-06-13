@@ -1,6 +1,14 @@
 from googleplaces import GooglePlaces, types, lang 
 import folium
 import requests
+import configparser
+def KEY():
+    configParser = configparser.RawConfigParser()   
+    configFilePath = r'Gmap/key.txt'
+    configParser.read(configFilePath)
+    key = configParser.get('your-config', 'API_KEY')
+    return key
+
 API_KEY='AIzaSyBeQ8EMs01Cnt9IHZXwqzUQOVqwra-WPJk'
 def GetUserGeoLocation():
     url = 'http://ipinfo.io/json '
@@ -58,4 +66,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
     
