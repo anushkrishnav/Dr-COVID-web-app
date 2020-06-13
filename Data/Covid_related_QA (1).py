@@ -1,4 +1,4 @@
-{
+dicta={
   "version":"0.2",
   "categories":[
     {
@@ -990,3 +990,14 @@
     }
   ]
 }
+questions=[]
+answers=[]
+for i in dicta.get('categories'):
+    for j in i.get('sub_categories'):
+        questions.append(j.get('nq_name'))
+        answers.append(j.get('answers'))
+
+print(questions)
+with open('listfile.txt', 'w') as filehandle:
+    for listitem in answers:
+        filehandle.write('%s\n\n' % listitem)
