@@ -10,5 +10,3 @@ def GetUserGeoLocation():
     data = response.json()
     list1=data["loc"].split(sep=",")
     return list1
-
-GetUserGeoLocation()
