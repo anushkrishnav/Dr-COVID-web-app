@@ -1,5 +1,4 @@
 import folium 
-import requests
 from Locate import *
 # Map method of folium return Map object 
 Userloc=GetUserGeoLocation()

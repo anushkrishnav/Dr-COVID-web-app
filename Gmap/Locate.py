@@ -1,6 +1,4 @@
 from googleplaces import GooglePlaces, types, lang 
-import requests 
-import json 
 from Geo_Location_finder import *
   
 
