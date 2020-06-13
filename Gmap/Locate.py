@@ -13,7 +13,7 @@ def GetHospitalLocation():
     # type HOSPITAL
     query_result = google_places.nearby_search(  
             lat_lng ={'lat': list1[0], 'lng': list1[1]}, 
-            radius = 1000,  
+            radius = 2000,  
             types =[types.TYPE_HOSPITAL]) 
     
     # If any attributions related  
@@ -24,8 +24,6 @@ def GetHospitalLocation():
     latlng=[]
     for place in query_result.places:
         latlng.append([str(place.name),float(place.geo_location['lat']),float(place.geo_location['lng'])]) 
-        #print("Latitude ", place.geo_location['lat']) 
-        #print("Longitude", ) 
     return latlng 
 
 GetHospitalLocation()
