@@ -135,58 +135,58 @@ const questions = [
             {text: 'All the above', correct: true}
         ]
     },
-    // {
-    //     question: "How can we make our hands safe?",
-    //     answers: [
-    //         {text: 'Wash with soap and water', correct: false},
-    //         {text: 'Wipe hands with tissue paper or cloth', correct: false},
-    //         {text: 'Wash with soap and water and scrub at least for 20 seconds', correct: true},
-    //         {text: 'Wash with plain soap', correct: false}
-    //     ]
-    // },
-    // {
-    //     question: "What are the methods to prevent COVID19?",
-    //     answers: [
-    //         {text: 'Physical distancing (1 meter)', correct: false},
-    //         {text: 'Physical distancing (2 meter)', correct: false},
-    //         {text: 'Physical distancing (6 feet)', correct: false},
-    //         {text: 'Both 2 and 3', correct: true}
-    //     ]
-    // },
-    // {
-    //     question: "Who is at a higher risk of developing complications from COVID-19?",
-    //     answers: [
-    //         {text: 'Elderly (65 years and above)', correct: false},
-    //         {text: 'People with uncontrolled diabetes', correct: false},
-    //         {text: 'People with other pre-existing diseases', correct: false},
-    //         {text: 'All the above', correct: true}
-    //     ]
-    // },
-    // {
-    //     question: "Which of the following is an example of physical distancing?",
-    //     answers: [
-    //         {text: 'You stop going to crowded places and visiting other people\'s houses', correct: true},
-    //         {text: 'You stop talking to people you live with', correct: false},
-    //         {text: 'You stop speaking to your friends on phone', correct: false},
-    //         {text: 'You stop interacting on social media platforms', correct: false}
-    //     ]
-    // },
-    // {
-    //     question: "How does Coronavirus transmit?",
-    //     answers: [
-    //         {text: 'Droplets spread (When a person sneezes or coughs)', correct: false},
-    //         {text: 'Constant touching of face, eyes or mouth', correct: false},
-    //         {text: 'Close contact with CoVid-19 infected person', correct: false},
-    //         {text: 'All the above', correct: true}
-    //     ]
-    // },
-    // {
-    //     question: "What are the common symptoms of COVID-19?",
-    //     answers: [
-    //         {text: 'Fever', correct: false},
-    //         {text: 'Dry cough', correct: false},
-    //         {text: 'Tiredness', correct: false},
-    //         {text: 'All the above', correct: true}
-    //     ]
-    // }
+    {
+        question: "How can we make our hands safe?",
+        answers: [
+            {text: 'Wash with soap and water', correct: false},
+            {text: 'Wipe hands with tissue paper or cloth', correct: false},
+            {text: 'Wash with soap and water and scrub at least for 20 seconds', correct: true},
+            {text: 'Wash with plain soap', correct: false}
+        ]
+    },
+    {
+        question: "What are the methods to prevent COVID19?",
+        answers: [
+            {text: 'Physical distancing (1 meter)', correct: false},
+            {text: 'Physical distancing (2 meter)', correct: false},
+            {text: 'Physical distancing (6 feet)', correct: false},
+            {text: 'Both 2 and 3', correct: true}
+        ]
+    },
+    {
+        question: "Who is at a higher risk of developing complications from COVID-19?",
+        answers: [
+            {text: 'Elderly (65 years and above)', correct: false},
+            {text: 'People with uncontrolled diabetes', correct: false},
+            {text: 'People with other pre-existing diseases', correct: false},
+            {text: 'All the above', correct: true}
+        ]
+    },
+    {
+        question: "Which of the following is an example of physical distancing?",
+        answers: [
+            {text: 'You stop going to crowded places and visiting other people\'s houses', correct: true},
+            {text: 'You stop talking to people you live with', correct: false},
+            {text: 'You stop speaking to your friends on phone', correct: false},
+            {text: 'You stop interacting on social media platforms', correct: false}
+        ]
+    },
+    {
+        question: "How does Coronavirus transmit?",
+        answers: [
+            {text: 'Droplets spread (When a person sneezes or coughs)', correct: false},
+            {text: 'Constant touching of face, eyes or mouth', correct: false},
+            {text: 'Close contact with CoVid-19 infected person', correct: false},
+            {text: 'All the above', correct: true}
+        ]
+    },
+    {
+        question: "What are the common symptoms of COVID-19?",
+        answers: [
+            {text: 'Fever', correct: false},
+            {text: 'Dry cough', correct: false},
+            {text: 'Tiredness', correct: false},
+            {text: 'All the above', correct: true}
+        ]
+    }
 ]
