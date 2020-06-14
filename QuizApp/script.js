@@ -22,6 +22,10 @@ function endGame() {
   quitButton.classList.remove('hide')
 }
 
+function pageRedirect() {
+  window.location.replace("../mainPage/index.html");
+} 
+
 nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
