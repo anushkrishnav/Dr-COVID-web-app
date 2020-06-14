@@ -45,7 +45,6 @@ def GetHospitalLocation():
 def main():
     Userloc=GetUserGeoLocation()
     hosname=[]
-
     # Here we pass coordinates of User  
     # and starting Zoom level = 11 
     my_map2 = folium.Map(location = Userloc, zoom_start = 30) 
@@ -62,6 +61,7 @@ def main():
         
         # save as html 
 
+    html=my_map2.get_root().render()
     my_map2.save("Hospitals.html")
 
 if __name__ == "__main__":
