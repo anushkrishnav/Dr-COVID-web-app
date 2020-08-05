@@ -1,0 +1,1 @@
+web: flask run --server.enableCORS false --server.port $PORT main.py

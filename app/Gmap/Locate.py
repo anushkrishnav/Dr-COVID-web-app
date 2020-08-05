@@ -62,7 +62,5 @@ def main():
         # save as html 
 
     html=my_map2.get_root().render()
-    my_map2.save("Hospitals.html")
-
-if __name__ == "__main__":
-    main()
+    my_map2.save("../Hospitals.html")
+    print("hey")

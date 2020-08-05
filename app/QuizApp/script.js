@@ -23,7 +23,7 @@ function endGame() {
 }
 
 function pageRedirect() {
-  window.location.replace("../mainPage/index.html");
+  window.location.replace("../templates/index.html");
 } 
 
 nextButton.addEventListener('click', () => {
